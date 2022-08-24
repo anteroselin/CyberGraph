@@ -1,0 +1,233 @@
+/* src\components\WalletConnectButton\index.module.css */
+.walletInfo {
+    font-weight: bold;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 12px 12px 22px rgba(219, 0, 255, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+
+.connectWalletButton {
+    background-color: #fff;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 36px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    font-family: "Outfit";
+}
+.walletDiv{
+    display: flex;
+    width: 183px;
+    height: 44px;
+    justify-content: center;
+}
+
+.walletPDiv{
+    margin-right: 5px;
+    align-items: center;
+}
+
+.walletIconDiv{
+    box-sizing: border-box;
+    cursor: pointer;
+    /* position: absolute; */
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.walletp{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    color: #FFFFFF;
+}
+
+.walletIcon {
+
+}
+
+.modalTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45.7617px;
+    line-height: 69px;
+    color: #FFFFFF;
+}
+
+.modalDiv{
+    background-color: #0F172A;
+    width: 100%;
+    height: 100%;
+}
+
+.modaltitleDiv{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+
+.modalwalletDiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.modalMetamaskDiv{
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.modalWalletConnectDiv{
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 1rem;
+    width: 100%;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.modalCoinBaseDiv{
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    justify-items: center;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.modalwalletP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.disconnectPanel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px; 
+    cursor: pointer;
+    justify-content: center;
+}
+
+.disconnectP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.notificationIcon{
+
+    width : 40.08px;
+    height : 43px;
+}
+
+.walletTotalDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.walletmainDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.walletDropdownMen{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(26, 1, 24, 0.05) 0%, rgba(12, 7, 36, 0.05) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: -20.2365px -20.2365px 40.4729px rgba(40, 0, 215, 0.05), 20.2365px 20.2365px 40.4729px rgba(224, 50, 230, 0.05);
+    border-radius: 18.6658px;
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+}
+
+.walletProfileDiv{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.walletSettingsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.walletSettingIcon{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.walletSettingP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.7%;
+    text-align: justify;
+    color: #FFFFFF;
+}

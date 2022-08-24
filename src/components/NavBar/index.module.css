@@ -1,0 +1,35 @@
+/* src\components\NavBar\index.module.css */
+
+.container {
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    top: 30%;
+    margin: 10px 30px;
+    height: 43px;
+}
+
+.logo {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+}
+
+.logop {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 19.6px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

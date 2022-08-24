@@ -1,0 +1,101 @@
+/* styles\Home.module.css */
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #0F172A;
+}
+
+.main {
+    min-height: 20rem;
+    margin-top: 10rem;
+    padding: 4rem 4rem;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+
+    color: white;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.3515px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.mainText{
+    color: white;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.jumpButton {
+    color: rgb(0, 0, 0);
+    background: white;
+    width: 270px;
+    height: 70px;
+    font-size: x-large;
+    border-radius: 20px;
+    margin: 20px 5px;
+    font-family: "Outfit";
+}
+
+.jumpButton:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: solid white 2px;
+}
+
+.loadingSection {
+    position: fixed;
+    display: flex;
+    padding: 80px 50px;
+}
+
+.loadingIcon {
+    margin-right: 10px;
+}
+
+.loadingText {
+    margin-top: 10px;
+    color: "white";
+    font-size: 20px;
+}
+
+.footer {
+    color: white;
+    font-weight: 300;
+    margin-left: 6px;
+    margin-top: 30rem;
+}
+
+
+.walletDiv {
+    margin-top: 10rem;
+}
+
+.walletP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

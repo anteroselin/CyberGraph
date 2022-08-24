@@ -1,0 +1,32 @@
+/* styles\globals.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300&display=swap");
+
+html,
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    max-height: 100px;
+    background-color: black;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+div.mantine-Paper-root.mantine-Modal-modal.mantine-18zae52 {
+    background-color: #0F172A !important;
+}
+
+div.mantine-Paper-root.mantine-Modal-modal.mantine-9vrzey {
+    background-color: #000 !important;
+}
+

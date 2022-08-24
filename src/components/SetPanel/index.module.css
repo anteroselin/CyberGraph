@@ -1,0 +1,253 @@
+.container {
+    background-color: #0F172A;
+    color: white;
+    width: 100%;
+    max-height: 40rem;
+    position: fixed;
+    z-index: 99;
+    position: absolute;
+    top: 7%;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.backSecion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 90px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.walletTitlePanel{
+    background: #0F172A;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 149px;
+    height: 100%;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.walletTitlePanelP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.walletAddressPanelP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.walletAddressPanel{
+    background: #0F172A;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.accountsSettingsPanel{
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.titleP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.walletInfoPanel{
+    display: flex;
+    flex-direction: row;
+}
+
+.emailInfoPanel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.emailtTitlePanel{
+    background: #0F172A;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 149px;
+    height: 100%;
+    margin-right: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.emailTitlePanelP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.emailTitlePanelPA{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.emailAddressPanel{
+    background: #0F172A;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.emailAddressPanelP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.socialPanel{
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+
+/*Github*/
+.github {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1.35434px solid rgba(235, 235, 245, 0.1);
+    box-shadow: -19.8637px -19.8637px 39.7274px rgba(40, 0, 215, 0.05), 19.8637px 19.8637px 39.7274px rgba(224, 50, 230, 0.05);
+    border-radius: 9.02894px;
+    box-sizing: border-box;
+    width: 307.89px;
+    height: 181.48px;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.twitterImageDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.twitterImage{
+    width: 30.7px;
+    height: 30.7px;
+}
+
+.twitterPDiv{
+    width: 100%;
+    align-items: left;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1.35434px solid rgba(235, 235, 245, 0.1);
+    box-shadow: -19.8637px -19.8637px 39.7274px rgba(40, 0, 215, 0.05), 19.8637px 19.8637px 39.7274px rgba(224, 50, 230, 0.05);
+    border-radius: 9.02894px;
+    box-sizing: border-box;
+    width: 307.89px;
+    height: 181.48px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.verifyDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.02894px;
+    gap: 9.03px;
+    width: 104.53px;
+    height: 42.06px;
+    cursor: pointer;
+}
+
+.verifiedP{
+    width: 63px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #27AE60;
+}
+
+.socialSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.notificationPanel{
+    width: 100%;
+    padding: 20px;
+}

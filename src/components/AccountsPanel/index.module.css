@@ -1,0 +1,170 @@
+.container {
+    background-color: #0F172A;
+    color: white;
+    width: 100%;
+    max-height: 40rem;
+    position: fixed;
+    z-index: 99;
+    position: absolute;
+    top: 27%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.accountsFollowSection{
+    background: #0F172A;
+    box-shadow: 0px 0px 2.16627px rgba(255, 255, 255, 0.25);
+    border-radius: 21.6627px;
+    padding-top: 26px;
+    padding-left: 56px;
+    padding-bottom: 10px;
+    margin-top: 26px;
+    padding-right: 56px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendedPeopleTitle{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+}
+
+.recommendedPeopleP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.recommendedPeopleMemberSection{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 16px;
+    
+    height: 220px;
+    padding: 30px;
+
+    overflow-y: auto;
+}   
+
+.recommendedPeopleMemberSection::-webkit-scrollbar {
+    width: 6px;
+}
+
+.recommendedPeopleMemberSection::-webkit-scrollbar-thumb {
+    width: 12px;
+    height: 2px;
+    background-color: rgb(208, 208, 208);
+}
+
+.recommendedPeopleMemberSection::-webkit-scrollbar-track {
+    background: rgb(87, 87, 87);
+}
+
+.peopleMemberSection{
+    width: 386px;
+    height: 194px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+
+/* Recommend Section */
+.userInfoSection {
+    display: flex;
+    width: 330.77px;
+    height: 175.53px;
+    background: linear-gradient(180deg, rgba(26, 1, 24, 0.05) 0%, rgba(12, 7, 36, 0.05) 100%);
+    box-shadow: -22px -22px 44px rgba(40, 0, 215, 0.05), 22px 22px 44px rgba(224, 50, 230, 0.05);
+    border-radius: 20.2924px;
+    padding-left: 1rem;
+    flex-direction: column;
+}
+
+.FollowButtonSection{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+.avatarSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 120px;
+    width: 100px;
+    padding-top: 15px;
+    border-radius: 18px;
+}
+
+.cyberConnectFollowButton
+{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    padding: 0 20px;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+    align-items: center;
+    border-radius: 4px;
+}
+.avatarDiv{
+
+}
+
+.avatar {
+    border-radius: 10px;
+    background-color: #FFB600;
+    width: 50px;
+    height: 50px; 
+}
+
+.userName {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-items: flex-start;
+}
+
+/* Responsive */
+
+@media screen and (min-width : 420px)
+{
+    .recommendedPeopleMemberSection
+    {
+        grid-template-columns: 2fr;
+        padding:10px;
+    }
+}
+
+@media screen and (min-width : 768px)
+{
+    .recommendedPeopleMemberSection
+    {
+        grid-template-columns: 2fr 2fr;
+        padding:20px;
+    }
+}
+
+@media screen and (min-width : 1024px)
+{
+    .recommendedPeopleMemberSection
+    {
+        grid-template-columns: 2fr 2fr 2fr;
+        padding: 30px;
+    }
+}

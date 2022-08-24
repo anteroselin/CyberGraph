@@ -1,0 +1,708 @@
+.container {
+    background-color: #0F172A;
+    color: white;
+    width: 100%;
+    max-height: 40rem;
+    position: fixed;
+    z-index: 99;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container::-webkit-scrollbar-track {
+    box-shadow: "inset 0 0 6px #000";
+    -webkit-box-shadow: "inset 0 0 6px #000";
+    background: rgb(87, 87, 87);
+    margin-right: 10px;
+}
+
+.container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 50px;
+}
+
+.userName {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-items: flex-start;
+}
+
+.countSection {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    border-radius: 18px;
+}
+.connectionCountSection {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.nftCountSection {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.noNftsInSection{
+    border-radius: 0.5rem;
+    align-items: center;
+    cursor: not-allowed;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.poapsCountSection{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nftShowSecion{
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  align-items: center;
+  grid-gap: 16px;
+  min-height: 550px;
+  overflow-y: auto;
+}
+
+/* customize scroll bar */
+
+
+div.nftShowSecion::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+div.nftShowSecion::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+}
+
+
+div.nftShowSecion::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+    border-radius: 10px;
+}
+
+
+div.nftShowSecion::-webkit-scrollbar-thumb:hover {
+    background: rgb(255,255,255); 
+}
+
+
+/* End Scroll bar */
+.nftModalShowSecion{
+    
+    align-items: center;
+}
+
+.nftsItemDiv{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 31px;
+    max-height: 300px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.verifiedCountSection{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow {
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.followList {
+    color: #cecece;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.balanceSection {
+    margin: 20px 20px;
+    border-bottom: #272727 solid 1px;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1.35434px solid rgba(235, 235, 245, 0.1);
+    box-shadow: -19.8637px -19.8637px 39.7274px rgba(40, 0, 215, 0.05), 19.8637px 19.8637px 39.7274px rgba(224, 50, 230, 0.05);
+    border-radius: 9.02894px;
+    box-sizing: border-box;
+    width: 307.89px;
+    height: 181.48px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1.35434px solid rgba(235, 235, 245, 0.1);
+    box-shadow: -19.8637px -19.8637px 39.7274px rgba(40, 0, 215, 0.05), 19.8637px 19.8637px 39.7274px rgba(224, 50, 230, 0.05);
+    border-radius: 9.02894px;
+    box-sizing: border-box;
+    width: 307.89px;
+    height: 181.48px;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.twitterImageDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.twitterImage{
+    width: 30.7px;
+    height: 30.7px;
+}
+
+.twitterButton {
+    background-color: #1da1f2;
+    color: white;
+    width: 280px;
+    height: 60px;
+    margin: 10px 5px;
+    border-radius: 55px;
+}
+.twitterPDiv{
+    width: 100%;
+    align-items: left;
+}
+.twitterButton:hover {
+    background-color: #116ca5;
+}
+
+.socialSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.verifiedP{
+    width: 63px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #27AE60;
+}
+
+.verifyDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.02894px;
+    gap: 9.03px;
+    width: 104.53px;
+    height: 42.06px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.socialIcon {
+    margin: 2px;
+    border: solid 2px white;
+    border-radius: 100%;
+    width: 50px;
+}
+
+.exploreButton {
+    border: solid white 3px;
+    color: white;
+    width: 600px;
+    height: 70px;
+    font-size: x-large;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: 28px;
+}
+
+.nftSection {
+    margin: 20px 20px;
+    border-bottom: #272727 solid 1px;
+}
+
+
+.nftList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 10px;
+    padding: 6px;
+    overflow-y: auto;
+    height: 84px;
+}
+.nftList::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nftList::-webkit-scrollbar-thumb {
+    width: 12px;
+    height: 2px;
+    background-color: rgb(208, 208, 208);
+}
+
+.nftList::-webkit-scrollbar-track {
+    background: rgb(87, 87, 87);
+}
+
+.addressP{
+    color: #FFFFFF;
+}
+
+.nftsImage{
+    width: 230px;   
+    height: 204px;
+}
+
+.nftOwnerAddressDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nftContractAddressDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.nftTokenIDDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.nftNetworkDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.nftCardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(235, 235, 245, 0.15);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.descriptionP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.3526px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.answerP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.3526px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.nftCreatePassDiv{
+    background: #FFFFFF;
+    box-shadow: 22px 22px 44px rgba(219, 0, 255, 0.11);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 172px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.actionDiv{
+    width: 100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.passButton{
+    color: #32324D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.openseaP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.382px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-top: 20px;
+    text-decoration-line: underline;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.nftQrDiv{
+    border-radius: 6.98073px;
+    display: flex;
+    justify-content: center;
+}
+
+.nftModalButtonDiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.nftModalAppleDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.48638px;
+    
+    gap: 3.49px;
+    background: #FFFFFF;
+    border-radius: 3.48638px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.nftModalGoogleDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.46417px;
+    gap: 3.46px;
+    background: #FFFFFF;
+    border-radius: 3.46417px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.nftModalAppleP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.54748px;
+    line-height: 13px;
+    color: #32324D;
+}
+
+.nftModalGoogleP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.54748px;
+    line-height: 13px;
+    color: #32324D;
+}
+
+
+/*           FollowSection              */
+.followersButtonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.32px 13.2px;
+    gap: 6.6px;
+    width: 149.16px;
+    height: 33px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.followingButtonDiv{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.32px 13.2px;
+    gap: 6.6px;
+    width: 149.16px;
+    height: 33px;
+    background: #0F172A;
+    border: 0.66px solid #F3F4F8;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.followersP{
+    width: 94px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.88px;
+    line-height: 18px;
+    background: linear-gradient(128.21deg, #FFB600 -38.08%, #E032E6 60.31%, #2800D7 150.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.followingP{
+    width: 89px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.88px;
+    line-height: 18px;
+    color: #8E8EA9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sectionButtonDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionWrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    align-items: center;
+    grid-gap: 16px;
+    min-height: 550px;
+    overflow-y: auto;
+}
+
+div.sectionWrapper::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+div.sectionWrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+}
+
+
+div.sectionWrapper::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+    border-radius: 10px;
+}
+
+
+div.sectionWrapper::-webkit-scrollbar-thumb:hover {
+    background: rgb(255,255,255); 
+}
+
+.avatar {
+    border-radius: 10px;
+    background-color: #FFB600;
+    width: 50px;
+    height: 50px; 
+}
+
+.userInfoSection {
+    display: flex;
+    width: 330.77px;
+    height: 175.53px;
+    background: linear-gradient(180deg, rgba(26, 1, 24, 0.05) 0%, rgba(12, 7, 36, 0.05) 100%);
+    box-shadow: -22px -22px 44px rgba(40, 0, 215, 0.05), 22px 22px 44px rgba(224, 50, 230, 0.05);
+    border-radius: 20.2924px;
+    padding-left: 1rem;
+}
+
+.avatarSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 120px;
+    width: 100px;
+    padding-top: 15px;
+    border-radius: 18px;
+}
+
+.avatarDiv{
+
+}
+
+.connectionShowSection{
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.followButtonDiv{
+
+}
+
+/*Poaps Section*/
+
+.poapCardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(235, 235, 245, 0.15);
+    border-radius: 30px;
+    padding: 10px;
+    height: 100%;
+}
+
+.poapItemDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 31px;
+    max-height: 300px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.poapImage{
+    width: 175.65px;
+    height: 175.65px;
+}
+
+.poapNameDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.poapDescriptionDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.poapCreateDateDiv{
+    display: flex;
+    align-items: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: end;
+}
+.poapnameP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.052px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.poapdescriptionP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.36799px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.poapCreateDateP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.36799px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}

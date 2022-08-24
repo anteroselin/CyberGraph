@@ -1,0 +1,31 @@
+/* src\components\NavBar\index.module.css */
+
+.container {
+    display: flex;
+    padding: 20px;
+    z-index: 100;
+    background-color: transparent;
+    width: 100vw;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 250px;
+}
+
+
+.walletDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.backSecion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 90px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}

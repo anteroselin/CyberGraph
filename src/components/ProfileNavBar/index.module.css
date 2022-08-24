@@ -1,0 +1,59 @@
+/* src\components\NavBar\index.module.css */
+
+.container {
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+    width: 100vw;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.title {
+    display: flex;
+}
+
+.logop {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.walletDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBarSection{
+    background: #0F172A;
+    border: 0.712165px solid rgba(255, 255, 255, 0.2);
+    border-radius: 7.12165px;
+    width: 594px;
+    height: 43px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchBarP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.serachIcon{
+    width: 20px;
+    height: 20px;
+}

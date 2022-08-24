@@ -1,0 +1,46 @@
+/* src\components\SearchBar\index.module.css */
+
+.textField {
+    height: 60px;
+    background-color: transparent;
+    width: 100%;
+    padding: 0 30px;
+    color: white;
+    font-size: large;
+    font-family: "Outfit";
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+
+.textField::placeholder {
+    color: white;
+}
+
+.userAddress {
+    font-family: "Outfit";
+}
+
+.searchBarSection{
+    background: #0F172A;
+    border: 1px solid #FFFFFF;
+    box-shadow: -7.5859px -7.5859px 13.9075px rgba(255, 182, 0, 0.05), 7.5859px 7.5859px 13.9075px rgba(224, 50, 230, 0.05);
+    border-radius: 10.9098px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.searchButtonSection{
+    background: linear-gradient(128.21deg, #FFB600 -38.08%, #E032E6 60.31%, #2800D7 150.83%);
+    border-radius: 9.81884px;
+    width: 169.1px;
+    height: 54.55px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
